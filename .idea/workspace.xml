@@ -128,11 +128,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../activity-system" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -161,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598855540990</updated>
-      <workItem from="1598855542023" duration="15071000" />
+      <workItem from="1598855542023" duration="16805000" />
     </task>
     <servers />
   </component>
@@ -169,22 +169,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1598871617952">
+    <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1598956354376">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598871617952" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1598871617952">
+    <state x="614" y="190" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598956354376" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1598957716974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598871617952" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1598871617952">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1598957716974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598871617952" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1598871617952">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1598957716973">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598871617952" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598957716973" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1598957716974">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
     <state x="604" y="348" key="NewPhpFileDialog" timestamp="1598871148355">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

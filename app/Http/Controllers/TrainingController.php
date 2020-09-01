@@ -62,7 +62,12 @@ class TrainingController extends Controller
         $selectionSort = $this->selectionSort($arr);
         $selectionSortDesc = $this->selectionSortDesc($arr);
 
-        return view('algorithms.index', compact('books', 'array', 'studentInfo', 'players', 'bubbleSort', 'arr', 'selectionSort', 'selectionSortDesc'));
+        $arr2 = [20, 45, 93, 67, 10, 97, 52, 88, 33, 92];
+
+        $orgArray = $arr2;
+        $this->insertionSort($arr2);
+
+        return view('algorithms.index', compact('books', 'array', 'studentInfo', 'players', 'bubbleSort', 'arr', 'selectionSort', 'selectionSortDesc', 'arr2', 'orgArray'));
     }
 
     public function findABook(Array $bookList, String $bookName) {
@@ -143,6 +148,20 @@ class TrainingController extends Controller
             }
         }
         return $arr;
+    }
+
+    function insertionSort(array &$arr) {
+        $len = count($arr);
+        for ($i = 1; $i < $len; $i++) {
+            $key = $arr[$i];
+            $j = $i - 1;
+
+            while($j >= 0 && $arr[$j] > $key) {
+                $arr[$j+1] = $arr[$j];
+                $j--;
+            }
+            $arr[$j+1] = $key;
+        }
     }
 
 }

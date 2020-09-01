@@ -35,7 +35,15 @@
                             @endforeach <br>
                             Selection Sort DESC @foreach($selectionSortDesc as $desc)
                                        {{ $desc }}
+                            @endforeach <br>
+                            Original array @foreach($orgArray as $org)
+                                       {{ $org }}
+                            @endforeach <br>
+                            Inserting Sort array
+                            @foreach($arr2 as $arrS)
+                                {{ $arrS }}
                             @endforeach
+
                             <div class="card-header">{{ __('Algorithms') }}</div>
                         @foreach($books as $book)
                             {{ $book[0] }}{{ $book[1] }}{{ $book[2] }}
