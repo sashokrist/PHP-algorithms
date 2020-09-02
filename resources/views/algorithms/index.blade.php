@@ -23,7 +23,7 @@
                                 @endforeach
                                 <br>
                             @endforeach
-                            <h2>Bubble Sort</h2>
+                            <h2>Sort</h2>
                             Before sort:    @foreach($arr as $item)
                                {{ $item }}
                             @endforeach <br>

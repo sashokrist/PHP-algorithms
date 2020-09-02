@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('algorithm-arrays', 'TrainingController@algorithm');
+Route::get('algorithm-arrays-sort', 'TrainingController@algorithm');
+Route::get('algorithm-arrays-search', 'TrainingController@linearSearch');
+Route::get('algorithm-search', 'TrainingController@searchView');
+Route::post('algorithm-search-result', 'TrainingController@result')->name('search-result');
+Route::get('algorithm-search-binary', 'TrainingController@binary');
+Route::get('algorithm-search-binaryRec', 'TrainingController@binarySearchRecResult');
 
 Auth::routes();
 

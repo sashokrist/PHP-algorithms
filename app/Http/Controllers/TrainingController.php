@@ -164,4 +164,129 @@ class TrainingController extends Controller
         }
     }
 
+    public function searchView()
+    {
+        $arr = $this->bubbleSort($this->randomGen());
+
+        return view('algorithms.search', compact('arr'));
+    }
+
+    public function linearSearch()
+    {
+        $numbers = range(1, 200, 5);
+       // print_r($numbers);
+        if ($this->search($numbers, 361)) {
+            echo "Found";
+        } else {
+            echo "Not found";
+        }
+    }
+
+    function search(array $numbers, int $needle): bool {
+
+        foreach ($numbers as $iValue) {
+            if($iValue === $needle){
+                return TRUE;
+            }
+        }
+        return FALSE;
+    }
+
+    public function randomGen()
+    {
+        $random_number_array = range(0, 100);
+        shuffle($random_number_array );
+        $random_number_array = array_slice($random_number_array ,0,10);
+
+        return $random_number_array;
+    }
+
+    public function result(Request  $request)
+    {
+       // dd($request->all());
+        $arr = array('arr' => json_decode($request->arr));
+        $numberToSearch = $request->number;
+        $result = $this->search($arr, $numberToSearch);
+       // dd($result);
+
+        if ($result === true) {
+            echo "Found";
+        } else {
+            echo "Not found";
+        }
+    }
+
+    public function binary()
+    {
+        $numbers = range(1, 200, 5);
+
+        $number = 31;
+        if ($this->binarySearch($numbers, $number) !== FALSE) {
+            echo "$number Found \n";
+        } else {
+            echo "$number Not found \n";
+        }
+
+        $number = 500;
+        if ($this->binarySearch($numbers, $number) !== FALSE) {
+            echo "$number Found \n";
+        } else {
+            echo "$number Not found \n";
+        }
+    }
+
+    function binarySearch(array $numbers, int $needle): bool {
+        $low = 0;
+        $high = count($numbers) - 1;
+        while ($low <= $high) {
+            $mid = (int) (($low + $high) / 2);
+
+            if ($numbers[$mid] > $needle) {
+                $high = $mid - 1;
+            } else if ($numbers[$mid] < $needle) {
+                $low = $mid + 1;
+            } else {
+                return TRUE;
+            }
+        }
+        return FALSE;
+    }
+
+    public function binarySearchRecResult()
+    {
+        $numbers = range(1, 200, 5);
+
+        $number = 31;
+        if ($this->binarySearchRec($numbers, $number, 0, count($numbers) - 1) !== FALSE) {
+            echo "$number Found \n";
+        } else {
+            echo "$number Not found \n";
+        }
+
+        $number = 36;
+        if ($this->binarySearchRec($numbers, $number, 0, count($numbers) - 1) !== FALSE) {
+            echo "$number Found \n";
+        } else {
+            echo "$number Not found \n";
+        }
+    }
+
+    function binarySearchRec(array $numbers, int $needle,
+                          int $low, int $high): bool {
+
+        if ($high < $low) {
+            return FALSE;
+        }
+
+        $mid = (int) (($low + $high) / 2);
+
+        if ($numbers[$mid] > $needle) {
+            return $this->binarySearchRec($numbers, $needle, $low, $mid - 1);
+        } else if ($numbers[$mid] < $needle) {
+            return $this->binarySearchRec($numbers, $needle, $mid + 1, $high);
+        } else {
+            return TRUE;
+        }
+    }
+
 }

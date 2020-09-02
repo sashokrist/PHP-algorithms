@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="" />
+    <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/algorithms/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/algorithms/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/algorithms/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -162,13 +173,33 @@
       <option name="presentableId" value="Default" />
       <updated>1598855540990</updated>
       <workItem from="1598855542023" duration="16805000" />
+      <workItem from="1598957756966" duration="1474000" />
+      <workItem from="1599026467108" duration="10001000" />
     </task>
+    <task id="LOCAL-00001" summary="Sorting algorithms">
+      <created>1598957792238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598957792238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Sorting algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting algorithms" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1598957791610">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1598957791610" />
     <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1598956354376">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -189,10 +220,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
-    <state x="604" y="348" key="NewPhpFileDialog" timestamp="1598871148355">
+    <state x="604" y="348" key="NewPhpFileDialog" timestamp="1599037470403">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="348" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1598871148355" />
+    <state x="604" y="348" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1599037470403" />
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598957794650">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598957794650" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598866907211">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
