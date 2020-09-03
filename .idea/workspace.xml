@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CheeseCutter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CheeseSmeller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Hipster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/LookupObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/ObserveEverything.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/VinObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/RealObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/RealSubject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_084428_create_cars_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CarSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Movie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Movies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/RequestCounter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/RequestCounterSingleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ReverseArrayIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/SingletonPattern.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +182,7 @@
       <workItem from="1598855542023" duration="16805000" />
       <workItem from="1598957756966" duration="1474000" />
       <workItem from="1599026467108" duration="10619000" />
-      <workItem from="1599109782285" duration="7702000" />
+      <workItem from="1599109782285" duration="10154000" />
     </task>
     <task id="LOCAL-00001" summary="Sorting algorithms">
       <created>1598957792238</created>
@@ -206,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599047504254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="observer pattern">
+      <created>1599131605350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599131605350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,21 +217,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Sorting algorithms" />
     <MESSAGE value="search algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="search algorithms" />
+    <MESSAGE value="observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599119753677">
+    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599134095700">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599119753677" />
+    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134095700" />
     <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599123390436">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123390436" />
-    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1599047503772">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="510" y="0" key="CommitChangelistDialog2" timestamp="1599131604840">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599047503772" />
+    <state x="510" y="0" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599131604840" />
     <state x="768" y="267" key="FileChooserDialogImpl" timestamp="1599127779348">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -254,10 +255,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
-    <state x="761" y="282" key="NewPhpClassDialog" timestamp="1599123048818">
+    <state x="761" y="282" key="NewPhpClassDialog" timestamp="1599134339641">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="761" y="282" key="NewPhpClassDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123048818" />
+    <state x="761" y="282" key="NewPhpClassDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134339641" />
     <state x="604" y="348" key="NewPhpFileDialog" timestamp="1599037470403">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -266,10 +267,11 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="464" y="219" key="SettingsEditor/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599118683740" />
-    <state x="378" y="163" key="Vcs.Push.Dialog.v2" timestamp="1599047508230">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="473" y="229" key="Vcs.Push.Dialog.v2" timestamp="1599131607354">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599047508230" />
+    <state x="473" y="229" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599131607354" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598866907211">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -26,6 +26,8 @@ Route::get('algorithm-search-binaryRec', 'TrainingController@binarySearchRecResu
 Route::get('observer', 'TrainingController@observer');
 Route::get('observer/cheese', 'TrainingController@cheese');
 Route::get('observer/car', 'CarController@car');
+Route::get('singleton', 'CarController@singleton');
+Route::get('iterator', 'CarController@iterator');
 
 Auth::routes();
 

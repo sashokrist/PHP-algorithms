@@ -6,6 +6,9 @@ use App\Car;
 use App\Observers\LookupObserver;
 use App\Observers\ObserveEverything;
 use App\Observers\VinObserver;
+use App\RequestCounter;
+use App\RequestCounterSingleton;
+use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
@@ -46,6 +49,71 @@ class CarController extends Controller
 
             $car0 = Car::find(0);
             $car1 = Car::find(1);
+    }
+
+    public function singleton()
+    {
+        RequestCounterSingleton::instance()->makeRequest();
+        RequestCounterSingleton::instance()->makeRequest();
+        RequestCounterSingleton::instance()->makeRequest();
+
+// Singleton request hits: 3
+        print 'Singleton request hits: ' . RequestCounterSingleton::instance()->numberOfRequestsMade() . PHP_EOL;
+
+        app()->instance('request.counter', new RequestCounter);
+        try {
+            app()->make('request.counter')->makeRequest();
+        } catch (BindingResolutionException $e) {
+        }
+        try {
+            app()->make('request.counter')->makeRequest();
+        } catch (BindingResolutionException $e) {
+        }
+        try {
+            app()->make('request.counter')->makeRequest();
+        } catch (BindingResolutionException $e) {
+        }
+        try {
+            app()->make('request.counter')->makeRequest();
+        } catch (BindingResolutionException $e) {
+        }
+        try {
+            app()->make('request.counter')->makeRequest();
+        } catch (BindingResolutionException $e) {
+        }
+
+// Simple singleton request hits: 5
+        print 'Simple singleton request hits: ' . app('request.counter')
+                ->numberOfRequestsMade() . PHP_EOL;
+    }
+
+    public function iterator()
+    {
+        $movies = new \App\Movies;
+        $movies->add(new \App\Movie('Ponyo', 'G'));
+        $movies->add(new \App\Movie('Kill Bill', 'R'));
+        $movies->add(new \App\Movie('The Santa Clause', 'PG'));
+        $movies->add(new \App\Movie('Guardians of the Galaxy', 'PG-13'));
+        $movies->add(new \App\Movie('Reservoir dogs', 'R'));
+        $movies->add(new \App\Movie('Sharknado', 'PG-13'));
+        $movies->add(new \App\Movie('Back to the Future', 'PG'));print 'MOVIE LISTING' . PHP_EOL;
+
+        foreach ($movies as $movie) {
+            print ' - ' . $movie->title() . PHP_EOL;
+        }
+
+        print PHP_EOL . 'RATED R ONLY' . PHP_EOL;
+
+        foreach ($movies->rated('R') as $movie) {
+            print ' - ' . $movie->title() . PHP_EOL;
+        }
+
+        print PHP_EOL . 'IN REVERSE ORDER' . PHP_EOL;
+
+        foreach ($movies->reverse() as $movie) {
+            print ' - ' . $movie->title() . PHP_EOL;
+        }
+
     }
 
 }
