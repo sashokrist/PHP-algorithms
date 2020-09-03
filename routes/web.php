@@ -23,6 +23,9 @@ Route::get('algorithm-search', 'TrainingController@searchView');
 Route::post('algorithm-search-result', 'TrainingController@result')->name('search-result');
 Route::get('algorithm-search-binary', 'TrainingController@binary');
 Route::get('algorithm-search-binaryRec', 'TrainingController@binarySearchRecResult');
+Route::get('observer', 'TrainingController@observer');
+Route::get('observer/cheese', 'TrainingController@cheese');
+Route::get('observer/car', 'CarController@car');
 
 Auth::routes();
 

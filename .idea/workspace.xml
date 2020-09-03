@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/algorithms/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/CheeseCutter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/CheeseSmeller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Hipster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Observers/LookupObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Observers/ObserveEverything.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Observers/VinObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/RealObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/RealSubject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_084428_create_cars_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CarSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/algorithms/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/algorithms/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,15 +142,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gqwgLFq65pBJFp5QZ6eEDHuPgt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../activity-system" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -174,7 +189,8 @@
       <updated>1598855540990</updated>
       <workItem from="1598855542023" duration="16805000" />
       <workItem from="1598957756966" duration="1474000" />
-      <workItem from="1599026467108" duration="10001000" />
+      <workItem from="1599026467108" duration="10619000" />
+      <workItem from="1599109782285" duration="7702000" />
     </task>
     <task id="LOCAL-00001" summary="Sorting algorithms">
       <created>1598957792238</created>
@@ -183,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598957792238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="search algorithms">
+      <created>1599047504254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599047504254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,18 +215,29 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Sorting algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting algorithms" />
+    <MESSAGE value="search algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="search algorithms" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1598957791610">
+    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599119753677">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599119753677" />
+    <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599123390436">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123390436" />
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1599047503772">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1598957791610" />
-    <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1598956354376">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599047503772" />
+    <state x="768" y="267" key="FileChooserDialogImpl" timestamp="1599127779348">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="614" y="190" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598956354376" />
+    <state x="768" y="267" key="FileChooserDialogImpl/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599127779348" />
     <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1598957716974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -220,14 +254,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598957716974" />
+    <state x="761" y="282" key="NewPhpClassDialog" timestamp="1599123048818">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="761" y="282" key="NewPhpClassDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123048818" />
     <state x="604" y="348" key="NewPhpFileDialog" timestamp="1599037470403">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="604" y="348" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1599037470403" />
-    <state x="378" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598957794650">
+    <state x="464" y="219" key="SettingsEditor" timestamp="1599118683740">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="464" y="219" key="SettingsEditor/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599118683740" />
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2" timestamp="1599047508230">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598957794650" />
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599047508230" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598866907211">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

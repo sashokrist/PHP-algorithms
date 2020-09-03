@@ -289,4 +289,35 @@ class TrainingController extends Controller
         }
     }
 
+    public function observer()
+    {
+        $subject1 = new \App\RealSubject('subject1');
+        $observer1 = new \App\RealObserver('observer1');
+        $observer2 = new \App\RealObserver('observer2');
+        $observer3 = new \App\RealObserver('observer3');
+
+        $subject1->attach($observer1);
+        $subject1->attach($observer2);
+        $subject1->attach($observer3);
+
+        $subject1->notify();
+    }
+
+    public function cheese()
+    {
+        $taylor = new \App\Person("Taylor");
+        $dayle = new \App\Person("Dayle");
+        $jeffery = new \App\Person("Jeffery");
+        $machuga = new \App\Hipster("Machuga");
+        $campbell = new \App\Person('Graham');
+
+        $taylor->nearBy($dayle, $jeffery, $machuga, $campbell);
+        $taylor->cuts('cheedar');
+        $taylor->says('oops...');
+
+        $taylor->noLongerNearBy($dayle, $jeffery, $machuga);
+        $taylor->cuts('monterey jack');
+        $taylor->says('This monterey jack cheese is all mine! muhahaha!');
+    }
+
 }
