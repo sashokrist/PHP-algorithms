@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Movie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Movies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/RequestCounter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/RequestCounterSingleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ReverseArrayIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/SingletonPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/JSController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/myscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/javascript/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/javascript/jquery.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,9 +149,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../activity-system" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -182,7 +189,10 @@
       <workItem from="1598855542023" duration="16805000" />
       <workItem from="1598957756966" duration="1474000" />
       <workItem from="1599026467108" duration="10619000" />
-      <workItem from="1599109782285" duration="10154000" />
+      <workItem from="1599109782285" duration="13469000" />
+      <workItem from="1599549177933" duration="9615000" />
+      <workItem from="1599714986404" duration="3515000" />
+      <workItem from="1600076805309" duration="8957000" />
     </task>
     <task id="LOCAL-00001" summary="Sorting algorithms">
       <created>1598957792238</created>
@@ -205,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599131605350</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="iterator">
+      <created>1599134645968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599134645968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,9 +235,14 @@
     <MESSAGE value="Sorting algorithms" />
     <MESSAGE value="search algorithms" />
     <MESSAGE value="observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
+    <MESSAGE value="iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599567277411">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="555" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599567277411" />
     <state x="692" y="363" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599134095700">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -229,11 +251,11 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123390436" />
-    <state x="510" y="0" key="CommitChangelistDialog2" timestamp="1599131604840">
+    <state x="510" y="0" key="CommitChangelistDialog2" timestamp="1599134645518">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599047503772" />
-    <state x="510" y="0" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599131604840" />
+    <state x="510" y="0" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134645518" />
     <state x="768" y="267" key="FileChooserDialogImpl" timestamp="1599127779348">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -259,19 +281,20 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="761" y="282" key="NewPhpClassDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134339641" />
-    <state x="604" y="348" key="NewPhpFileDialog" timestamp="1599037470403">
+    <state x="604" y="348" key="NewPhpFileDialog" timestamp="1600081955475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="348" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1599037470403" />
+    <state x="604" y="348" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1600081955475" />
+    <state x="755" y="488" key="NewPhpFileDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599549469505" />
     <state x="464" y="219" key="SettingsEditor" timestamp="1599118683740">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="464" y="219" key="SettingsEditor/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599118683740" />
-    <state x="473" y="229" key="Vcs.Push.Dialog.v2" timestamp="1599131607354">
+    <state x="473" y="229" key="Vcs.Push.Dialog.v2" timestamp="1599134647774">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599047508230" />
-    <state x="473" y="229" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599131607354" />
+    <state x="473" y="229" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134647774" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598866907211">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

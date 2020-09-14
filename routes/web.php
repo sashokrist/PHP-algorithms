@@ -28,6 +28,8 @@ Route::get('observer/cheese', 'TrainingController@cheese');
 Route::get('observer/car', 'CarController@car');
 Route::get('singleton', 'CarController@singleton');
 Route::get('iterator', 'CarController@iterator');
+Route::get('javascript', 'JSController@index');
+Route::get('jquery', 'JSController@jquery');
 
 Auth::routes();
 
