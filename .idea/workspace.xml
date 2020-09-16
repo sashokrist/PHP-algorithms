@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e164afc6-aee8-4fa8-8568-ef8de761f2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/JSController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/myscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/javascript/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/javascript/jquery.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/javascript/jquery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/javascript/jquery.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../activity-system" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -192,7 +186,11 @@
       <workItem from="1599109782285" duration="13469000" />
       <workItem from="1599549177933" duration="9615000" />
       <workItem from="1599714986404" duration="3515000" />
-      <workItem from="1600076805309" duration="8957000" />
+      <workItem from="1600076805309" duration="9577000" />
+      <workItem from="1600152665280" duration="619000" />
+      <workItem from="1600235417941" duration="747000" />
+      <workItem from="1600239761954" duration="4933000" />
+      <workItem from="1600246268646" duration="4218000" />
     </task>
     <task id="LOCAL-00001" summary="Sorting algorithms">
       <created>1598957792238</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599134645968</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jQuery">
+      <created>1600086634707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600086634707</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +241,8 @@
     <MESSAGE value="search algorithms" />
     <MESSAGE value="observer pattern" />
     <MESSAGE value="iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
+    <MESSAGE value="jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599567277411">
@@ -251,15 +257,15 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="693" y="329" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599123390436" />
-    <state x="510" y="0" key="CommitChangelistDialog2" timestamp="1599134645518">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1600086634210">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599047503772" />
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600086634210" />
     <state x="510" y="0" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134645518" />
-    <state x="768" y="267" key="FileChooserDialogImpl" timestamp="1599127779348">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1600152682350">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="614" y="190" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598956354376" />
+    <state x="614" y="190" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600152682350" />
     <state x="768" y="267" key="FileChooserDialogImpl/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599127779348" />
     <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1598957716974">
       <screen x="0" y="0" width="1536" height="834" />
@@ -290,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="464" y="219" key="SettingsEditor/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599118683740" />
-    <state x="473" y="229" key="Vcs.Push.Dialog.v2" timestamp="1599134647774">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600086637510">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599047508230" />
+    <state x="378" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1600086637510" />
     <state x="473" y="229" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1599134647774" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598866907211">
       <screen x="0" y="0" width="1536" height="834" />
